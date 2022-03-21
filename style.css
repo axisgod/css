@@ -178,21 +178,22 @@
     display: flex;
     justify-content:space-between ;
 }
-.card{
+#second .card{
     width: 15%;
-    height: 80%;
+    height: 30vh;
     border: solid 0.5px rgb(228, 228, 228);
     border-radius: 5px;
 
     padding: 2%;
     display: grid;
-    grid-template-columns: auto;
+    grid-template-columns: 100%;
     grid-template-rows: 20% 40% 40%;
     align-items: center;
 }
 #second section .card img{
     width: 50px;
     height: 50px;
+    padding: 5px 0;
 
     object-fit: cover;
 }
@@ -204,3 +205,103 @@
     font-size: 12px;
     font: bold;
 }
+#third{
+    width: 100vw;
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+}
+#third .third-img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+#third #third-section{
+    padding:10%;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+
+}
+#third #third-section article h3{
+    font-size: 35px;
+    font: bold;
+}
+#third #third-section article p{
+    font-size: 16px;
+    font: bold;
+    padding:5% 20% 5% 0;
+
+}
+#third #third-section #third-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    padding-right: 20%;
+}
+
+#third #third-section #third-container .card-2{
+    width: 100%;
+    height: auto;
+
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-items: center;
+    border: solid 0.5px rgb(226, 224, 224);
+    border-radius: 5px;
+
+}
+.third-icon{
+    height: 30px;
+    width: 30px;
+
+    object-fit: contain;
+}
+#quarter{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 100%;
+}
+#quarter img{
+    height: 100%;
+    width: 100%;
+
+    object-fit: contain;
+}
+#quarter-section{
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+}
+#quarter-article h3{
+    font-size: 35px;
+    font: bold;
+}
+#quarter-article p{
+    font-size: 16px;
+    font: bold;
+    padding:5% 20% 5% 0;
+}
+#third-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.card-3{
+    height: 20%;
+    width: 40%;
+    padding: 10%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 50% 50%;
+    
+}
+
+
